@@ -1,0 +1,152 @@
+rating = pd.read_csv('/home/rating_baru.csv')
+#model = tf.keras.models.load_model("/content/recommender_model.tflite")
+place = pd.read_csv('/home/place_malang.csv')
+
+
+# Load TFLite model
+model = tf.lite.Interpreter(model_path="/content/recommender_model.tflite")
+model.allocate_tensors()
+
+# Get input and output details
+input_details = model.get_input_details()
+output_details = model.get_output_details()
+
+# Continue with the rest of your code...
+
+
+
+def dict_encoder(col, data=df):
+
+  # Mengubah kolom suatu dataframe menjadi list tanpa nilai yang sama
+  unique_val = data[col].unique().tolist()
+
+  # Melakukan encoding value kolom suatu dataframe ke angka
+  val_to_val_encoded = {x: i for i, x in enumerate(unique_val)}
+
+  # Melakukan proses encoding angka ke value dari kolom suatu dataframe
+  val_encoded_to_val = {i: x for i, x in enumerate(unique_val)}
+  return val_to_val_encoded, val_encoded_to_val
+  
+  
+# Encoding User_Id
+user_to_user_encoded, user_encoded_to_user = dict_encoder('User_Id')
+
+# Mapping User_Id ke dataframe
+df['user'] = df['User_Id'].map(user_to_user_encoded)
+
+
+
+# Encoding Place_Id
+place_to_place_encoded, place_encoded_to_place = dict_encoder('Place_Id')
+
+# Mapping Place_Id ke dataframe place
+df['place'] = df['Place_Id'].map(place_to_place_encoded)
+
+
+
+# Mendapatkan jumlah user dan place
+num_users, num_place = len(user_to_user_encoded), len(place_to_place_encoded)
+
+# Mengubah rating menjadi nilai float
+df['Place_Ratings'] = df['Place_Ratings'].values.astype(np.float32)
+
+# Mendapatkan nilai minimum dan maksimum rating
+min_rating, max_rating = min(df['Place_Ratings']), max(df['Place_Ratings'])
+
+print(f'Number of User: {num_users}, Number of Place: {num_place}, Min Rating: {min_rating}, Max Rating: {max_rating}')
+
+
+
+place_df = place[['Place_Id','Place_Name','Category','Rating','Price']]
+place_df.columns = ['id','place_name','category','rating','price']
+df = rating.copy()
+
+
+# Mengambil sample user
+user_id = df.User_Id.sample(1).iloc[0]
+place_visited_by_user = df[df.User_Id == user_id]
+
+
+
+# Membuat data lokasi yang belum dikunjungi user
+place_not_visited = place_df[~place_df['id'].isin(place_visited_by_user.Place_Id.values)]['id']
+place_not_visited = list(
+    set(place_not_visited)
+    .intersection(set(place_to_place_encoded.keys()))
+)
+
+place_not_visited = [[place_to_place_encoded.get(x)] for x in place_not_visited]
+user_encoder = user_to_user_encoded.get(user_id)
+user_place_array = np.hstack(
+    ([[user_encoder]] * len(place_not_visited), place_not_visited)
+)
+
+
+# Mengambil top 7 recommendation
+ratings = model.predict(user_place_array).flatten()
+top_ratings_indices = ratings.argsort()[-7:][::-1]
+recommended_place_ids = [
+    place_encoded_to_place.get(place_not_visited[x][0]) for x in top_ratings_indices
+]
+
+print('Daftar rekomendasi untuk: {}'.format('User ' + str(user_id)))
+print('===' * 15,'\n')
+print('----' * 15)
+print('Tempat dengan rating wisata paling tinggi dari user')
+print('----' * 15)
+
+top_place_user = (
+    place_visited_by_user.sort_values(
+        by = 'Place_Ratings',
+        ascending=False
+    )
+    .head(5)
+    .Place_Id.values
+)
+
+place_df_rows = place_df[place_df['id'].isin(top_place_user)]
+for row in place_df_rows.itertuples():
+    print(row.place_name, ':', row.category)
+
+print('')
+print('----' * 15)
+print('Top 7 place recommendation')
+print('----' * 15)
+
+recommended_place = place_df[place_df['id'].isin(recommended_place_ids)]
+for row, i in zip(recommended_place.itertuples(), range(1,8)):
+    print(i,'.', row.place_name, '\n    ', row.category, ',', 'Harga Tiket Masuk ', row.price, ',', 'Rating Wisata ', row.rating,'\n')
+
+print('==='*15)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
