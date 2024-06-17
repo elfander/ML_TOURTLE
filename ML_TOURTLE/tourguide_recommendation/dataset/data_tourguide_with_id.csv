@@ -1,0 +1,101 @@
+﻿tour_id,Nama Lengkap,Jenis Kelamin,Nomor HP,Nomor WhatsApp,Agama,Usia,Kategori,Rating,Tempat Lahir,Tanggal Lahir,Asal Kota,Kategori Berdasarkan Diatas
+401,Geri Santoso,Laki-laki,81234567890,83198765432,Islam,29,Taman Hiburan,4.3,Jakarta,10 Februari 1995,Malang,Taman Hiburan
+402,Adam Siregar,Perempuan,87654321098,85670123456,Islam,27,Pantai,2.8,Surabaya,10 Maret 1996,Malang,Pantai
+403,Budi Santoso,Laki-laki,82112233445,81376543210,Islam,28,Cagar Alam,3.5,Bandung,15 Juli 1993,Malang,Cagar Alam
+404,Siti Nur Aini,Perempuan,85670987654,87609876543,Islam,29,Tempat Ibadah,5,Medan,20 Mei 1992,Malang,Tempat Ibadah
+405,Eko Wahyudi,Laki-laki,83198765432,82134567890,Islam,25,Pusat Perbelanjaan,3.2,Semarang,25 Desember 1998,Malang,Pusat Perbelanjaan
+406,Maya Putri Utami,Perempuan,89876543210,85612345678,Islam,27,Wisata Budaya,4.1,Yogyakarta,10 Januari 1997,Malang,Wisata Budaya
+407,Hadi Setiawan,Laki-laki,81376548290,89876543210,Islam,26,Taman Rekreasi,3.7,Makassar,18 Oktober 1995,Malang,Taman Rekreasi
+408,Anisa Fitriana,Perempuan,87609876543,81112233445,Islam,24,Kebun Binatang,2.9,Palembang,7 Juni 1997,Malang,"Kebun Binatang, Museum"
+409,Joko Santoso,Laki-laki,82345678901,87654321234,Islam,23,Museum,4.8,Malang,12 Januari 1998,Malang,Museum
+410,Retno Wulandari,Perempuan,85612345678,82345678901,Islam,29,Alam,3.6,Padang,30 Agustus 1991,Malang,Alam
+411,Agus Suharto,Laki-laki,81112233445,81112233445,Hindu,22,"Gunung, Alam",4.4,Denpasar,9 Maret 2000,Malang,"Gunung, Alam"
+412,Nita Anggraini,Perempuan,87654321234,85670987654,Hindu,28,Wisata Edukasi,3.2,Balikpapan,22 Juli 1992,Malang,Wisata Edukasi
+413,Harianto Nugroho,Laki-laki,82134567890,87654321098,Buddha,25,"Alam, Glamping",2.5,Manado,12 Juli 1992,Malang,"Alam, Glamping"
+414,Ratna Kumala Dewi,Perempuan,85670123456,81234567890,Buddha,24,"Alam, Pemandian",4.9,Batam,28 Februari 1997,Malang,"Alam, Pemandian"
+415,Surya Wijaya,Laki-laki,83198765432,89876543210,Kristen,28,Religi,4.3,Pekanbaru,11 Oktober 1993,Malang,Religi
+416,Indah Kusuma Wardani,Perempuan,89876543210,82134567890,Kristen,26,"Kuliner, Wisata Alam",4.6,Banjarmasin,2 Agustus 1991,Malang,"Kuliner, Wisata Alam"
+417,Dodi Susanto,Laki-laki,81376543210,85612345678,Kristen,23,Agrowisata,3.4,Bandar Lampung,9 Juni 2000,Malang,Agrowisata
+418,Mega Fitria,Perempuan,87609876543,83198765432,Kristen,28,Taman Nasional,2.1,Jambi,25 Mei 1993,Malang,Taman Nasional
+419,Adi Nugroho,Laki-laki,82345678901,81376543210,Kristen,24,"Sejarah, Budaya",4.7,Palangkaraya,8 Desember 1997,Malang,"Sejarah, Budaya"
+420,Rini Setyawati,Perempuan,85612345678,87609876543,Hindu,20,"Pantai, Alam",3.1,Pontianak,2 Januari 2001,Malang,"Pantai, Alam"
+421,Wahyu Kusuma,Perempuan,81112233445,85670123456,Islam,22,Taman Kota,4.2,Kendari,17 Agustus 1999,Malang,Taman Kota
+422,Citra Indriani,Laki-laki,87654321234,82345678901,Islam,26,Pantai,3.6,Samarinda,4 Maret 1995,Malang,Pantai
+423,Bambang Prasetyo,Perempuan,82134567890,87654321234,Islam,28,Wisata Budaya,2.7,Sorong,21 Juni 1993,Malang,Wisata Budaya
+424,Lina Puspitasari,Laki-laki,85670123456,81112233445,Islam,29,Taman Rekreasi,4.5,Ambon,22 Januari 2001,Malang,Taman Rekreasi
+425,Heryanto Wibowo,Perempuan,83198765432,85670987654,Islam,31,Kebun Binatang,3.4,Jayapura,1 Agustus 1999,Malang,"Kebun Binatang, Museum"
+426,Yuni Astuti,Perempuan,89876543210,89876543210,Islam,28,Alam,4,Mataram,29 Juli 1993,Malang,Alam
+427,Fajar Ramadhan,Laki-laki,81376543210,81234567890,Islam,26,Taman Hiburan,3.9,Kupang,13 Februari 1995,Malang,Taman Hiburan
+428,Rina Susilowati,Perempuan,87609876543,82134567890,Islam,23,Pantai,2.3,Tarakan,26 Oktober 1998,Malang,Pantai
+429,Anton Supriyanto,Laki-laki,82345678901,85612345678,Islam,26,Cagar Alam,4.9,Palu,1 Mei 1995,Malang,Cagar Alam
+430,Nani Rahayu,Perempuan,85612345678,83198765432,Islam,29,Tempat Ibadah,2.7,Bengkulu,16 Oktober 1991,Malang,Tempat Ibadah
+431,Bagus Wibisono,Laki-laki,81112233445,81376543210,Islam,29,Pusat Perbelanjaan,4.3,Banda Aceh,3 Maret 1992,Malang,Pusat Perbelanjaan
+432,Dian Fitriani,Perempuan,87654321234,87609876543,Islam,26,Wisata Budaya,3.8,Tanjung Pinang,18 Agustus 1995,Malang,Wisata Budaya
+433,Dwi Cahyono,Laki-laki,82134567890,81112233445,Islam,23,Taman Rekreasi,2.6,Singkawang,7 Januari 1998,Malang,Taman Rekreasi
+434,Ani Septiani,Perempuan,85670123456,87654321234,Islam,29,Kebun Binatang,4.8,Ternate,20 Mei 1996,Malang,"Kebun Binatang, Museum"
+435,Agung Purnomo,Laki-laki,83198765432,82345678901,Islam,26,Museum,2.5,Tomohon,13 Desember 1992,Malang,Museum
+436,Maya Dewi Safitri,Perempuan,89876543210,85670123456,Islam,23,Alam,4.5,Madiun,21 Oktober 1991,Malang,Alam
+437,Heru Setiawan,Laki-laki,81376543210,89876543210,Hindu,29,"Gunung, Alam",3.1,Lubuk Linggau,25 Desember 1991,Malang,"Gunung, Alam"
+438,Nia Permata Sari,Perempuan,87609876543,81234567890,Hindu,23,Wisata Edukasi,2.4,Pasuruan,30 Agustus 1998,Malang,Wisata Edukasi
+439,Joko Santoso,Laki-laki,82345678901,82134567890,Buddha,25,"Alam, Glamping",4.6,Mojokerto,9 Mei 1992,Malang,"Alam, Glamping"
+440,Lita Susanti,Perempuan,85612345678,85612345678,Buddha,26,"Alam, Pemandian",3,Lhokseumawe,11 Oktober 1995,Malang,"Alam, Pemandian"
+441,Doni Prasetyo,Laki-laki,81112233445,83198765432,Kristen,23,Religi,4.1,Metro,26 Juni 1998,Malang,Religi
+442,Sari Mulia,Perempuan,87654321234,81376543210,Kristen,24,"Kuliner, Wisata Alam",3.7,Pangkal Pinang,13 Juli 1997,Malang,"Kuliner, Wisata Alam"
+443,Eko Sutrisno,Laki-laki,82134567890,87609876543,Kristen,28,Agrowisata,2.8,Salatiga,26 Agustus 1996,Malang,Agrowisata
+444,Ratna Susilawati,Perempuan,85670123456,85670123456,Kristen,25,Taman Nasional,4.7,Probolinggo,29 Juli 1996,Malang,Taman Nasional
+445,Taufik Hidayat,Laki-laki,83198765432,82345678901,Kristen,26,"Sejarah, Budaya",2.2,Bontang,13 Februari 1997,Malang,"Sejarah, Budaya"
+446,Yuniarti Putri,Perempuan,89876543210,81112233445,Hindu,23,"Pantai, Alam",4.4,Singaraja,26 Oktober 1996,Malang,"Pantai, Alam"
+447,Hadi Saputra,Laki-laki,81376543210,87654321234,Islam,26,Taman Kota,3.5,Bukittinggi,1 Mei 1995,Malang,Taman Kota
+448,Lina Indah Sari,Perempuan,87609876543,85670987654,Islam,24,Pantai,2.9,Pakpak Bharat,16 Oktober 1991,Malang,Pantai
+449,Arya Wijaya,Laki-laki,82345678901,81234567890,Islam,28,Wisata Budaya,4.8,Tanah Grogot,3 Maret 1998,Malang,Wisata Budaya
+450,Rika Kartika,Perempuan,85612345678,89876543210,Islam,22,Taman Rekreasi,3.3,Soe,18 Agustus 1993,Malang,Taman Rekreasi
+451,Dian Hidayati,Perempuan,81112233445,82134567890,Islam,23,Kebun Binatang,4.2,Magelang,7 Januari 1998,Malang,"Kebun Binatang, Museum"
+452,Indra Gunawan,Laki-laki,87654321234,85612345678,Islam,25,Alam,3.6,Lamongan,20 Mei 1996,Malang,Alam
+453,Yulia Fitriana,Perempuan,82134567890,83198765432,Islam,23,Taman Hiburan,2.7,Payakumbuh,11 Oktober 1999,Malang,Taman Hiburan
+454,Ari Kurniawan,Laki-laki,85670123456,81376543210,Islam,24,Pantai,4.5,Bima,12 Agustus 1991,Malang,Pantai
+455,Nia Anggraeni,Perempuan,83198765432,87609876543,Islam,30,Cagar Alam,4.4,Pinrang,25 Desember 1991,Malang,Cagar Alam
+456,Adi Prasetya,Laki-laki,89876543210,85670123456,Islam,24,Tempat Ibadah,4,Blitar,30 Agustus 1992,Malang,Tempat Ibadah
+457,Anisa Utami,Perempuan,81376543210,82345678901,Islam,26,Pusat Perbelanjaan,3.9,Lombok,15 Maret 2000,Malang,Pusat Perbelanjaan
+458,Bambang Setiawan,Laki-laki,87609876543,81112233445,Islam,25,Wisata Budaya,2.1,Dumai,11 Oktober 1994,Malang,Wisata Budaya
+459,Maya Kusuma,Perempuan,82345678901,87654321234,Islam,23,Taman Rekreasi,4.9,Magelang,26 Juni 1997,Malang,Taman Rekreasi
+460,Agus Susanto,Laki-laki,85612345678,85670987654,Islam,29,Kebun Binatang,2.6,Kudus,7 Juni 2000,Malang,"Kebun Binatang, Museum"
+461,Rini Sari,Perempuan,81112233445,81234567890,Islam,25,Museum,4.3,Tangerang,8 Juli 1989,Malang,Museum
+462,Wahyu Nugroho,Laki-laki,87654321234,89876543210,Islam,23,Alam,3.8,Sidoarjo,29 Juli 1996,Malang,Alam
+463,Citra Wardani,Perempuan,82134567890,82134567890,Hindu,24,"Gunung, Alam",2.5,Binjai,13 Februari 1997,Malang,"Gunung, Alam"
+464,Budi Cahyono,Laki-laki,85670123456,85612345678,Hindu,25,Wisata Edukasi,4.6,Jember,26 Oktober 1998,Malang,Wisata Edukasi
+465,Mega Indriani,Perempuan,83198765432,83198765432,Buddha,26,"Alam, Glamping",2.1,Pematangsiantar,13 Februari 1998,Malang,"Alam, Glamping"
+466,Hari Susanto,Laki-laki,89876543210,81376543210,Buddha,29,"Alam, Pemandian",4.4,Cirebon,7 Mei 1995,Malang,"Alam, Pemandian"
+467,Ratna Permata,Perempuan,81376543210,87609876543,Kristen,23,Religi,3.7,Tegal,23 Juli 2001,Malang,Religi
+468,Surya Wijaya,Laki-laki,87609876543,85670123456,Kristen,28,"Kuliner, Wisata Alam",2.3,Sungai Penuh,28 Januari 1995,Malang,"Kuliner, Wisata Alam"
+469,Indah Purnama,Perempuan,82345678901,82345678901,Kristen,23,Agrowisata,4.7,Klaten,25 Januari 1992,Malang,Agrowisata
+470,Dodi Prasetyo,Laki-laki,85612345678,81112233445,Kristen,25,Taman Nasional,2.5,Singaparna,28 Juni 1999,Malang,Taman Nasional
+471,Retno Wulandari,Perempuan,81112233445,87654321234,Kristen,26,"Sejarah, Budaya",4.1,Gunungsitoli,19 Oktober 1998,Malang,"Sejarah, Budaya"
+472,Adi Nugroho,Laki-laki,87654321234,85670987654,Hindu,23,"Pantai, Alam",3.6,Ponorogo,8 Agustus 2001,Malang,"Pantai, Alam"
+473,Nita Dewi,Perempuan,82134567890,81234567890,Islam,30,Taman Kota,2.4,Padang Sidempuan,12 Januari 1994,Malang,Taman Kota
+474,Hari Setiawan,Laki-laki,85670123456,89876543210,Islam,29,Pantai,4.8,Sumedang,4 Maret 1995,Malang,Pantai
+475,Maya Fitri,Perempuan,83198765432,82134567890,Islam,25,Wisata Budaya,3,Sibolga,10 Mei 1990,Malang,Wisata Budaya
+476,Joko Santoso,Laki-laki,89876543210,85612345678,Islam,27,Taman Rekreasi,4.2,Melonguane,9 Juli 1997,Malang,Taman Rekreasi
+477,Ratna Susanti,Perempuan,81376543210,83198765432,Islam,24,Kebun Binatang,3.5,Tondano,5 Desember 2000,Malang,"Kebun Binatang, Museum"
+478,Surya Wijaya,Laki-laki,87609876543,81376543210,Islam,26,Alam,2.8,Pariaman,14 Mei 1998,Malang,Alam
+479,Indah Puspitasari,Perempuan,82345678901,87609876543,Islam,23,Taman Hiburan,4.5,Tanjung Enim,17 Mei 1998,Malang,Taman Hiburan
+480,Dodi Nugroho,Laki-laki,85612345678,85670123456,Islam,29,Pantai,2.2,Palopo,25 Juni 1995,Malang,Pantai
+481,Retno Setyawati,Perempuan,81112233445,82345678901,Islam,25,Cagar Alam,4,Cilacap,16 Agustus 1999,Malang,Cagar Alam
+482,Adi Kusuma,Laki-laki,87654321234,81112233445,Islam,26,Tempat Ibadah,3.9,Sumedang,21 Februari 1999,Malang,Tempat Ibadah
+483,Nita Pratiwi,Perempuan,82134567890,87654321234,Islam,28,Pusat Perbelanjaan,2.6,Bangkalan,28 Oktober 1992,Malang,Pusat Perbelanjaan
+484,Hari Susanto,Laki-laki,85670123456,85670987654,Islam,23,Wisata Budaya,4.9,Prabumulih,10 Oktober 2001,Malang,Wisata Budaya
+485,Maya Rahayu,Perempuan,83198765432,81234567890,Islam,26,Taman Rekreasi,2.3,Trenggalek,2 Februari 1998,Malang,Taman Rekreasi
+486,Joko Wibowo,Laki-laki,89876543210,89876543210,Islam,23,Kebun Binatang,4.3,Sukabumi,21 Mei 2001,Malang,"Kebun Binatang, Museum"
+487,Ratna Susilowati,Perempuan,81376543210,82134567890,Islam,24,Museum,3.8,Ngawi,18 Maret 2000,Malang,Museum
+488,Surya Purnama,Laki-laki,87609876543,85612345678,Islam,26,Alam,2.7,Lubuk Pakam,6 Juli 1998,Malang,Alam
+489,Indah Kusuma,Perempuan,82345678901,83198765432,Hindu,25,"Gunung, Alam",4.6,Majalengka,13 Januari 1999,Malang,"Gunung, Alam"
+490,Dodi Santoso,Laki-laki,85612345678,81376543210,Hindu,28,Wisata Edukasi,2.4,Sragen,27 Agustus 1996,Malang,Wisata Edukasi
+491,Retno Anggraini,Perempuan,81112233445,87609876543,Buddha,30,"Alam, Glamping",4.4,Gresik,24 Oktober 1994,Malang,"Alam, Glamping"
+492,Adi Prasetyo,Laki-laki,87654321234,85670123456,Buddha,29,"Alam, Pemandian",3.7,Pemalang,31 Desember 1995,Malang,"Alam, Pemandian"
+493,Nita Purnama,Perempuan,82134567890,82345678901,Kristen,25,Religi,2.9,Sumenep,26 Juni 1999,Malang,Religi
+494,Hari Setiawan,Laki-laki,85670123456,81112233445,Kristen,27,"Kuliner, Wisata Alam",4.8,Cilegon,30 Mei 1998,Malang,"Kuliner, Wisata Alam"
+495,Maya Dewi,Perempuan,83198765432,87654321234,Kristen,24,Agrowisata,2.1,Purwakarta,29 Maret 2000,Malang,Agrowisata
+496,Joko Santoso,Laki-laki,89876543210,85670987654,Kristen,26,Taman Nasional,4.2,Baturaja,9 Oktober 1990,Malang,Taman Nasional
+497,Ratna Puspitasari,Perempuan,81376543210,81234567890,Kristen,25,"Sejarah, Budaya",3.6,Trenggalek,7 Juni 1999,Malang,"Sejarah, Budaya"
+498,Surya Nugroho,Laki-laki,87609876543,89876543210,Hindu,27,"Pantai, Alam",2.5,Bangil,4 Februari 1997,Malang,"Pantai, Alam"
+499,Indah Fitriani,Perempuan,82345678901,82134567890,Islam,24,Taman Kota,4.7,Soppeng,19 Oktober 2000,Malang,Taman Kota
+500,Dodi Setiawan,Laki-laki,85612345678,85612345678,Islam,26,Pantai,2.5,Rantepao,11 Mei 1998,Malang,Pantai
